@@ -1,13 +1,13 @@
 | # | Assignment | Completed |
 | - | ---------- | --------- |
-| 1 | Fibobacci | [checkbox:checked] |
-| 2 | Bubble Sort | - [checkbox:checked] |
-| 3 | Reverse String | - [checkbox:checked] |
-| 4 | Factorial | - [checkbox:checked] |
-| 5 | Substring | - [checkbox:checked] |
-| 6 | Even Number | - [checkbox:checked] |
-| 7 | Palindrome | - [checkbox:checked] |
-| 8 | Shapes | - [checkbox:checked] |
-| 9 | Object Properties | - [checkbox:checked] |
-| 10 | Object Creation | - [checkbox:checked] |
-| 11 | Splice Element | - [checkbox:unchecked] |
+| 1 | Fibobacci |  - [x] |
+| 2 | Bubble Sort | - [x] |
+| 3 | Reverse String | - [x] |
+| 4 | Factorial | - [x] |
+| 5 | Substring | - [x] |
+| 6 | Even Number | - [x] |
+| 7 | Palindrome | - [x] |
+| 8 | Shapes | - [x] |
+| 9 | Object Properties | - [x] |
+| 10 | Object Creation | - [x] |
+| 11 | Splice Element | - [x] |
