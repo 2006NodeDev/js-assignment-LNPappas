@@ -1,28 +1,36 @@
 /* 1. Fibonacci
 Define function: fib(n) 
 Return the nth number in the fibonacci sequence. */
-function fib(n) {
-    // if the number is less then/equal to 2 then return 1
-    // this is the base case and/or stopping logic
-    if(n<=2) return 1;
 
-    /* return the function fib with one index lower and two indexes lower. 
-         a,b = b, a+b
-     
-        fib(3) return fib(2) + fib(1)
-        equivalent to: return 1 + 1 == 2 <- this is the right answer. 
+// Dynamic Programming with Recurssion
 
-        fib(4) return fib(3) + fib(2)
-        we know fib(3) = 2 (see above) + and fib(2) = 1 (see base case)
-        therefore fib(4) = 3
-    */
-    return fib(n-1) + fib(n-2);
+// using object as dictionary to store cases
+let memo = {
+    1:0,
+    2:1
 }
 
-console.log(fib(1));        //should be: 1
+function fib(n) {
+    // if n in memo, return value
+    // if n is zero return it's value in memo, not falsey value
+    if(memo[n] || memo[n] === 0){
+        return memo[n]
+    }
+    else{
+        // if n not in memo, calculate it and any other values need through recurssion
+        // add those new values to memo
+        memo[n] = fib(n-1) + fib(n-2);
+
+        // return the calculated/stored value.
+        return memo[n]
+    }
+}
+
+console.log(fib(1));        //should be: 0
 console.log(fib(2));        //should be: 1
-console.log(fib(3));        //should be: 2
-console.log(fib(4));        //should be: 3
-console.log(fib(5));        //should be: 5
-console.log(fib("10"));     //should be: 55 <- no type-strict comparator for >/< in js
-console.log(fib(15));       //should be: 610
+console.log(fib(3));        //should be: 1
+console.log(fib(4));        //should be: 2
+console.log(fib(5));        //should be: 3
+console.log(fib(6));        //should be: 5
+console.log(fib("10"));     //should be: 34 
+console.log(fib(15));       //should be: 377
