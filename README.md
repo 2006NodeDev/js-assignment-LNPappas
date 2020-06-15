@@ -1,13 +1,14 @@
-| # | Assignment | Completed |
-| - | ---------- | --------- |
-| 1 | Fibobacci |  - [x] |
-| 2 | Bubble Sort | - [x] |
-| 3 | Reverse String | - [x] |
-| 4 | Factorial | - [x] |
-| 5 | Substring | - [x] |
-| 6 | Even Number | - [x] |
-| 7 | Palindrome | - [x] |
-| 8 | Shapes | - [x] |
-| 9 | Object Properties | - [x] |
-| 10 | Object Creation | - [x] |
-| 11 | Splice Element | - [x] |
+| # | Assignment |
+|---| ---------- | 
+
+1. - [X] Fibonacci
+2. - [X] Bubble Sort
+3. - [X] Reverse String
+4. - [X] Factorial
+5. - [X] Substring
+6. - [X] Even Number
+7. - [X] Palindrome
+8. - [X] Shapes
+9. - [X] Object Properties
+10. - [X] Object Creation
+11. - [X] Splice Element
